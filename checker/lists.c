@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 10:20:56 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/09 10:20:58 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:22:36 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,21 +63,4 @@ void	ft_add_node_front(t_stack *lst, t_node *new)
 	}
 	new->next = lst->head;
 	lst->head = new;
-}
-
-void	print_list(t_node *head)
-{
-	int	i;
-
-	i = 1;
-	while (head)
-	{
-		printf ("\nNode: %04d\t Value: %d", i, head->value);
-		printf ("\tAddress: %p", head);
-		printf ("\tPoints to: %p", head->next);
-		printf ("\tParse: %lu", head->parse);
-		head = head->next;
-		i++;
-	}	
-	printf("\n");
 }

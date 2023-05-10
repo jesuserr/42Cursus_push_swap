@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 10:18:44 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 11:35:38 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:23:01 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@
 */
 # include <unistd.h>    // for write
 # include <stdlib.h>    // for exit, malloc
-# include <stdio.h>		// for printf QUITAR
 # include <limits.h>	// for INT_MAX && INT_MIN
 # include <stddef.h>	// for NULL
 
@@ -79,7 +78,6 @@ void	detect_duplicates_and_limits(int argc, char **argv);
 t_stack	*ft_new_stack(t_stack *lst);
 t_node	*ft_new_node(int number);
 void	ft_add_node_front(t_stack *lst, t_node *new);
-void	print_list(t_node *head);
 
 void	swap(t_stack *lst);
 void	swap_both(t_stack *lst_a, t_stack *lst_b);

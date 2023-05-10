@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 10:21:01 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 11:40:49 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:17:44 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,3 @@ int	main(int argc, char **argv)
 	}	
 	return (0);
 }
-//valgrind --leak-check=full -s ./checker 2 1 3 6 5 8
-//leaks  --atExit -- ./checker 2 1 3 6 5 8
-//printf ("\nStack A %ld\t%p\t%p", stack_a->size, stack_a->head, stack_a->tail);
-//printf ("\nStack B %ld\t%p\t%p", stack_b->size, stack_b->head, stack_b->tail);
-//print_list(stack_a->head);
-//print_list(stack_b->head);

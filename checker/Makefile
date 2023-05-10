@@ -12,9 +12,8 @@
 
 NAME = checker
 
-SRCS = main.c lists.c utils.c errors.c moves_1.c moves_2.c \
-sort_utils.c get_next_line.c get_next_line_utils.c \
-checker_utils.c
+SRCS = main.c checker_utils.c errors.c  get_next_line.c \
+get_next_line_utils.c lists.c moves_1.c moves_2.c sort_utils.c utils.c
 
 OBJS = $(SRCS:.c=.o)
 
