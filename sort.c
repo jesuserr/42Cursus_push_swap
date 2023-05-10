@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 21:46:21 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/07 00:21:59 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:07:36 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ void	sort_stack(t_stack *lst_a, t_stack *lst_b)
 	if (lst_a->size > 25)
 		sort_over_25(lst_a, lst_b);
 }
-// Careful with the limits and the formula in sort_over_25
 
 void	sort_triplet(t_stack *lst)
 {

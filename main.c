@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 14:42:51 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/07 13:39:31 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:06:04 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,3 @@ int	main(int argc, char **argv)
 	}	
 	return (0);
 }
-//valgrind --leak-check=full -s ./push_swap 2 1 3 6 5 8
-//printf ("\nStack A %ld\t%p\t%p", stack_a->size, stack_a->head, stack_a->tail);
-//printf ("\nStack B %ld\t%p\t%p", stack_b->size, stack_b->head, stack_b->tail);
-//print_list(stack_a->head);
-//print_list(stack_b->head);
-//ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG

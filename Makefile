@@ -12,8 +12,8 @@
 
 NAME = push_swap
 
-SRCS = main.c lists.c utils.c errors.c moves.c sort.c sort_utils_1.c \
-sort_utils_2.c
+SRCS = main.c errors.c lists.c moves.c sort.c sort_utils_1.c \
+sort_utils_2.c utils.c
 
 OBJS = $(SRCS:.c=.o)
 
