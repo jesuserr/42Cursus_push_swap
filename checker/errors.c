@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 10:20:48 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 11:42:33 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:53:49 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,8 @@ void	detect_no_numbers(int argc, char **argv)
 				if (!(ft_isdigit(c)))
 					ft_error_handler(ERROR);
 			i++;
-		}		
-	}	
+		}
+	}
 }
 
 void	detect_duplicates_and_limits(int argc, char **argv)

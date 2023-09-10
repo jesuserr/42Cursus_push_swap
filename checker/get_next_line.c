@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/23 12:10:41 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 09:04:06 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:52:40 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ static void	*gnl_calloc(size_t count, size_t size)
 		*(unsigned char *)(ptr) = 0;
 		ptr++;
 		len--;
-	}	
+	}
 	return (copy);
 }
 
@@ -107,7 +107,7 @@ char	*get_next_line(int fd)
 			{
 				last_line = 1;
 				return (read_line (&storage[fd], last_line));
-			}		
+			}
 		}
 		return (total_free(&storage[fd], &storage[fd], 0));
 	}

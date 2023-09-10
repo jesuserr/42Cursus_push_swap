@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 10:21:01 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 13:17:44 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:52:47 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,6 @@ int	main(int argc, char **argv)
 		detect_no_numbers(argc, argv);
 		detect_duplicates_and_limits(argc, argv);
 		init_program(argc, argv);
-	}	
+	}
 	return (0);
 }

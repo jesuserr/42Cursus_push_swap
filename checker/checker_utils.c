@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 10:52:23 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 11:42:47 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:54:04 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char	*moves_reading(t_stack *lst_a, t_stack *lst_b)
 		}
 		free (input);
 		input = get_next_line(1);
-	}	
+	}
 	return (actions);
 }
 
@@ -76,7 +76,7 @@ void	apply_moves(t_stack *lst_a, t_stack *lst_b, char *moves)
 	{
 		apply_moves_aux(lst_a, lst_b, *moves);
 		moves++;
-	}	
+	}
 }
 
 void	apply_moves_aux(t_stack *lst_a, t_stack *lst_b, char moves)

@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 10:14:38 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/05 23:39:05 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:51:21 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	push(t_stack *lst_a, t_stack *lst_b)
 	{
 		write (1, RED"Empty Stack - Nothing to push\n"WHITE, 44);
 		return ;
-	}	
+	}
 	temp = lst_a->head->next;
 	ft_add_node_front(lst_b, lst_a->head);
 	lst_a->size--;

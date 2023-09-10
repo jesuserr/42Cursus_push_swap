@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 21:46:21 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/10 13:07:36 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:50:51 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void	sort_triplet(t_stack *lst)
 	{
 		swap(lst);
 		reverse_rotate(lst);
-	}	
+	}
 }
 
 void	sort_under_25(t_stack *lst_a, t_stack *lst_b)
@@ -57,7 +57,7 @@ void	sort_under_25(t_stack *lst_a, t_stack *lst_b)
 	int		direction;
 
 	while (lst_a->size > 3 && !list_is_sorted(lst_a))
-	{	
+	{
 		position = smallest_nbr_position(lst_a);
 		direction = reverse_or_not_reverse(lst_a, &position);
 		while (position > 0)

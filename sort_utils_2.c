@@ -6,7 +6,7 @@
 /*   By: jesuserr <jesuserr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 21:47:29 by jesuserr          #+#    #+#             */
-/*   Updated: 2023/05/07 13:45:56 by jesuserr         ###   ########.fr       */
+/*   Updated: 2023/09/10 19:52:00 by jesuserr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void	move_back_to_stack_a(t_stack *lst_b, t_stack *lst_a)
 	int		flag;
 
 	while (lst_b->size)
-	{	
+	{
 		position = biggest_nbr_position(lst_b, &parsed_value);
 		direction = reverse_or_not_reverse(lst_b, &position);
 		flag = 0;
@@ -79,7 +79,7 @@ void	move_back_to_stack_a(t_stack *lst_b, t_stack *lst_a)
 				position = biggest_nbr_position(lst_b, &parsed_value);
 				direction = reverse_or_not_reverse(lst_b, &position);
 				flag = 1;
-			}			
+			}
 		}
 		push(lst_b, lst_a);
 		if (flag == 1)
